@@ -1,0 +1,107 @@
+font {
+  family: arial;
+  weight: bold;
+}
+
+body {
+  background-color: green;
+  height: 500px;
+}
+body .main {
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: white;
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+body .main .head {
+  background-color: burlywood;
+  display: flex;
+}
+body .main .head .log {
+  width: 50%;
+}
+body .main .head h1 {
+  color: brown;
+  margin-bottom: 5px;
+}
+body .main .head ul {
+  display: flex;
+}
+body .main .head ul li {
+  margin-right: 100px;
+  list-style-type: none;
+}
+body .main .head ul li a {
+  text-decoration: none;
+}
+body .banner {
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 10px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+body .banner .lft, body .banner .mdl, body .banner .rgt {
+  width: 33%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body .banner .lft-img, body .banner .mdl-img, body .banner .rgt-img {
+  width: 100%;
+}
+body .footer {
+  display: flex;
+  height: 60px;
+}
+body .footer .ft-lft {
+  width: 50%;
+}
+body .footer .soc-ic {
+  float: right;
+}
+body .footer .soc-ic .fb, body .footer .soc-ic .tw, body .footer .soc-ic .in {
+  background-image: url(../images/social-icons.jpg);
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  display: inline-block;
+}
+body .footer .soc-ic .fb {
+  background-position: -50px 60px;
+}
+body .footer .soc-ic .tw {
+  background-position: -100px 150px;
+}
+body .footer .soc-ic .in {
+  background-position: -150px 200px;
+}
+
+.mix {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
+@media (max-width: 725px) {
+  .nav {
+    display: none;
+  }
+}
+@media (min-width: 725px) {
+  .mb {
+    display: none;
+  }
+}
+@media (max-width: 725px) {
+  .log {
+    width: 50%;
+    overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=sample.css.map */

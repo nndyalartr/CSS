@@ -1,0 +1,196 @@
+body {
+  margin: 0px;
+}
+body .main {
+  margin-top: 0px;
+}
+body .main .header, body .main .log-img {
+  display: flex;
+}
+body .main .header .log-img, body .main .log-img .log-img {
+  width: 30px;
+  height: 30px;
+  padding-top: 13px;
+  margin-left: 150px;
+}
+body .main .header .log-img .fox-img, body .main .log-img .log-img .fox-img {
+  width: 100%;
+}
+body .main .header .name, body .main .log-img .name {
+  padding-top: 16px;
+  width: 75px;
+  font-size: 20px;
+}
+body .main .header .nav-list, body .main .log-img .nav-list {
+  display: flex;
+  margin-left: 50px;
+  list-style: none;
+}
+body .main .header .nav-list .nav, body .main .log-img .nav-list .nav {
+  margin-right: 40px;
+}
+body .main .header .nav-list .nav a, body .main .log-img .nav-list .nav a {
+  text-decoration: none;
+  color: black;
+}
+body .main .mt-ct {
+  width: 100%;
+  background-position: 0px -300px;
+  box-sizing: border-box;
+  background-image: url(../images/dis-img.jpg);
+}
+body .main .mt-ct .stamp {
+  position: relative;
+  width: 200px;
+  left: 500px;
+  top: 200px;
+}
+body .main .mt-ct .stamp .stamp-img {
+  width: 100%;
+}
+body .main .mt-ct .ct-img {
+  position: relative;
+  width: 398px;
+  top: 274px;
+  left: 522px;
+  height: 400px;
+  color: white;
+  font-weight: bold;
+}
+body .main .cont1 {
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 80%;
+  margin-left: 85px;
+  margin-bottom: 10px;
+}
+body .main .cont1 .lft-cnt, body .main .cont1 .mdl-cnt, body .main .cont1 .rgt-cnt {
+  width: 33%;
+  column-count: 2;
+  text-align: right;
+}
+body .main .cont1 .lft-cnt .font, body .main .cont1 .mdl-cnt .font, body .main .cont1 .rgt-cnt .font {
+  margin-bottom: 85px;
+  font-size: 35px;
+}
+body .main .cont1 .lft-cnt .lft, body .main .cont1 .mdl-cnt .lft, body .main .cont1 .rgt-cnt .lft {
+  background-color: cyan;
+  color: white;
+}
+body .main .cont1 .lft-cnt .rgt, body .main .cont1 .mdl-cnt .rgt, body .main .cont1 .rgt-cnt .rgt {
+  background-color: green;
+  color: white;
+}
+body .main .cont1 .lft-cnt .mdl, body .main .cont1 .mdl-cnt .mdl, body .main .cont1 .rgt-cnt .mdl {
+  background-color: black;
+  color: white;
+}
+body .main .cont2 {
+  background-color: #eee8e8;
+  display: flex;
+  width: 100%;
+}
+body .main .cont2 .cont2-img {
+  width: 50%;
+}
+body .main .cont2 .cont2-img .grp-img {
+  width: 600px;
+  padding: 25px;
+}
+body .main .cont2 .cont2-txt h1 {
+  text-align: center;
+}
+body .main .cont2 .cont2-txt .rea {
+  border: 2px solid black;
+  width: 100px;
+  background-color: white;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+body .main .cont3 h1 {
+  text-align: center;
+}
+body .main .cont3 p {
+  text-align: center;
+}
+body .main .nav2 .nav-list2 {
+  display: flex;
+  margin-left: 50px;
+  list-style: none;
+  margin-left: 250px;
+}
+body .main .nav2 .nav-list2 .nav2 {
+  margin-right: 40px;
+}
+body .main .nav2 .nav-list2 .nav2 a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+body .main .nav2 .nav-list2 .nav2 a:hover {
+  background-color: black;
+  color: white;
+}
+body .main .imgs {
+  width: 100%;
+  display: flex;
+}
+body .main .imgs .img-container {
+  width: 20%;
+  height: fit-content;
+  overflow: hidden;
+}
+body .main .imgs .img-container .img3 {
+  width: 100%;
+}
+body .main .test h1, body .main .test h6 {
+  text-align: center;
+}
+body .main .test h1 {
+  margin-bottom: 8px;
+}
+body .main .test h6 {
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+body .main .dev {
+  width: 50%;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+body .main .dev .dev-lft {
+  width: 100%;
+  display: flex;
+  border: 1px solid grey;
+  border-right: 4px solid green;
+}
+body .main .dev .dev-lft .dev-img-cnt {
+  margin-top: 3px;
+  width: 400px;
+  height: fit-content;
+}
+body .main .dev .dev-lft .dev-img-cnt .dev-img {
+  width: 100%;
+}
+body .main .dev .dev-lft .dev-txt p {
+  text-align: left;
+  vertical-align: text-top;
+  padding: 0px;
+}
+body .main .seb {
+  margin-left: 50px;
+}
+body .main .seb h3 {
+  padding: 0px;
+  margin-bottom: 5px;
+  color: indigo;
+}
+body .main .seb p {
+  margin-top: 2px;
+}
+
+/*# sourceMappingURL=fox.css.map */
